@@ -6,6 +6,7 @@ package CommandPattern;
  1. 필요한 ConcreteCommand 객체들을 생성 (요청 생성)
  2. 생성된 커맨드들을 Invoker(CommandGroup)에 등록
  3. 최종적으로 Invoker의 실행 메소드를 호출하여 모든 작업을 시작시킴
+ Invoker(호출자)와 수신자 클래스 간의 관계
  */
 public class MainEntry {
     public static void main(String[] args) {
